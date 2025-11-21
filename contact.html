@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FluxCoin - Contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
@@ -17,26 +18,27 @@
     </nav>
 </header>
 
-<section class="content">
-    <h2>Contact us</h2>
+<section class="contact-section">
+    <h2>Contact Us</h2>
     <p>Have questions about investing or need guidance? We’d love to help.</p>
 
-    <div style="display:flex; flex-wrap:wrap; gap:40px; justify-content:center; margin-top:30px;">
+    <div class="contact-container">
 
-        <form class="form" style="flex:1; min-width:260px;">
+        <!-- Contact Form -->
+        <form class="contact-form">
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button class="btn">Send Message</button>
         </form>
 
- 
-        <div class="card" style="flex:1; min-width:260px;">
+        <!-- Contact Info Card -->
+        <div class="contact-card">
             <h3>Contact Details</h3>
-            <p><strong>Email:</strong> support@fluxCoin.com</p>
+            <p><strong>Email:</strong> support@FluxCoin.com</p>
             <p><strong>Phone:</strong> +91 98765 43210</p>
             <p><strong>Location:</strong> Bengaluru, India</p>
-            <hr style="margin:15px 0;">
+            <hr>
             <p>We usually respond within 24 hours.</p>
         </div>
 
